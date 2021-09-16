@@ -10,6 +10,7 @@ set encoding=utf-8
 set showmatch
 set termguicolors
 set sw=2
+set encoding=UTF-8
 "set relativenumber
 so ~/.vim/plugins.vim
 so ~/.vim/plugin-config.vim
