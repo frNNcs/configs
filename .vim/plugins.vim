@@ -45,7 +45,6 @@ Plug 'scrooloose/nerdcommenter'
 " Icons
 Plug 'ryanoasis/vim-devicons'
 
-
 " git
 Plug 'tpope/vim-fugitive'
 

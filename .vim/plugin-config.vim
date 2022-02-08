@@ -82,7 +82,10 @@ set shortmess+=c
 set signcolumn=yes
 
 " fugitive always vertical diffing
-set diffopt+=vertical
+if &diff
+  set diffopt+=vertical
+endif
+
 
 
 
