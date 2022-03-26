@@ -128,3 +128,9 @@ export PATH="/Users/francisco/Projects/siliq/homebrew/opt/libpq/bin:$PATH"
 export PATH="/opt/homebrew/opt/openssl@3/bin:$PATH"
 
 alias arreglar_sonido="sudo killall coreaudiod"
+export PATH="/opt/homebrew/opt/mysql-client/bin:$PATH"
+export LDFLAGS="-L/opt/homebrew/opt/mysql-client/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/mysql-client/include"
+
+
+alias clear_branches="git branch --merged >/tmp/merged-branches && vi /tmp/merged-branches && xargs git branch -d </tmp/merged-branches"
